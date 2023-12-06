@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OneStop BookShop</title>
+
+    <link rel="stylesheet" href="./Final-project.css" />
+    <script defer src="./Final-project.js"></script>
+    <style>
+      .header-1 {
+        align-items: baseline;
+        padding: 0;
+      }
+      .welcome {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="firstpage-container" id="container">
+      <header class="header-1">
+        <h3 class="welcome">Welcome User!!</h3>
+        <section class="right-btn">
+          <button class="checkout-btn" id="checkOutBtn">Checkout</button>
+        </section>
+      </header>
+      <header class="header-2">
+        <img
+          src="https://images.unsplash.com/photo-1491841573634-28140fc7ced7?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          id="logo"
+          alt="logo"
+        />
+
+        <nav id="searchNav">
+          <input type="text" id="searchBar" placeholder="Search" />
+          <select name="product-options" id="prodOpt">
+            <option value="All products">All products</option>
+            <option value="Books">Books</option>
+            <option value="e-books">e-books</option>
+            <option value="Magazines">Magazines</option>
+            <option value="Giftcards">Giftcards</option>
+            <option value="Audio-books">Audio-books</option>
+          </select>
+          <img
+            src="https://media.istockphoto.com/id/1044689226/photo/magnifying-glass-isolated-on-white-background-with-clipping-path.jpg?s=1024x1024&w=is&k=20&c=LZm9q-B4o6bF42DyCpMI1167xwEzdZYxKUEowWGD4ag="
+            id="searchImg"
+            alt=""
+          />
+        </nav>
+      </header>
+      <section class="main-category" id="mainCategory">
+        <nav>
+          <ul id="categoryUl">
+            <li><a href="#" id="booksBtn" class="btn">Books</a></li>
+            <li><a href="#" id="ebooksBtn" class="btn">e-Books</a></li>
+            <li><a href="#" id="magazineBtn" class="btn">Magazine</a></li>
+            <li><a href="#" id="stationaryBtn" class="btn">Stationary</a></li>
+            <li><a href="#" id="giftCard" class="btn">Giftcard</a></li>
+          </ul>
+          <ul id="bookList" class="sub-cat">
+            <li>Fiction</li>
+            <li>Non Fiction</li>
+            <li>Kids</li>
+            <li>Academic</li>
+            <li>Popular</li>
+          </ul>
+          <ul id="ebookList" class="sub-cat">
+            <li>Fiction</li>
+            <li>Non Fiction</li>
+            <li>Best Sellers</li>
+            <li>Education</li>
+            <li>Test Books</li>
+          </ul>
+          <ul id="magazineList" class="sub-cat">
+            <li>Life Style</li>
+            <li>Hobbies</li>
+            <li>Entetainment</li>
+            <li>Sports</li>
+            <li>Travel</li>
+          </ul>
+          <ul id="statList" class="sub-cat">
+            <li>Stationary</li>
+            <li>Diaries</li>
+            <li>Calenders</li>
+            <li>Journals</li>
+            <li>NoteBooks</li>
+          </ul>
+        </nav>
+
+        <section id="mainContainer">
+          <h3>Bestsellers</h3>
+          <ul id="bestsellers">
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="3">Item 3</a></li>
+            <li><a href="#">Item 4</a></li>
+            <li><a href="#">Item 5</a></li>
+            <li><a href="#">Item 6</a></li>
+            <li><a href="#">Item 7</a></li>
+            <li><a href="#">Item 8</a></li>
+            <li><a href="#">Item 9</a></li>
+            <li><a href="#">Item 10</a></li>
+            <li><a href="#">Item 11</a></li>
+            <li><a href="#">Item 12</a></li>
+          </ul>
+
+          <article id="bannerSection">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1676422355165-d809008b8342?q=80&w=2799&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              id="bannerImg"
+              alt=""
+            />
+            <nav>
+              <a href="#"
+                ><img
+                  src="#"
+                  alt=""
+                  id="bestSellerBtn"
+                  class="Btn-img"
+                />Bestseller</a
+              >
+              <a href="#"
+                ><img src="" alt="" id="BestBook23" class="Btn-img" />Best Books
+                of 2023</a
+              >
+              <a href="#"
+                ><img src="#" id="staffPicks" class="Btn-img" />Staff Picks</a
+              >
+            </nav>
+          </article>
+        </section>
+        <aside id="popularNow">
+          <img src="#" id="book1" alt="" />
+          <img src="#" id="book2" alt="" />
+          <img src="#" id="book3" alt="" />
+        </aside>
+      </section>
+      <footer>
+        <p>&copy;Copyright 2023, All rights reserved</p>
+        <p>
+          <a href="/privacy">Privacy Policy</a>
+          <a href="/T&C">Terms & Condition</a>
+          <a href="/productcontentpolicy">Product Content Policy</a>
+        </p>
+      </footer>
+    </section>
+  </body>
+</html>
